@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: One - Liners
 header-img: img/home-bg.png
 email: dapawn@gmail.com
 copyright_name: dapawn
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Clear Concise Code
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  dapawn
