@@ -31,6 +31,6 @@ Nokogiri (fine toothes saw in Japanese), is a ruby gem that parses the HTML and 
 ``search = Nokogiri::HTML(html)`` <br>
 ``search.css("li.result-row span.result-meta span.result-hood")``
 
-## Conclusion
+## So what's the point?
 
-Ruby gives us many tools to make scrping web pages easier. Investing a little time learning them now will reap abundant rewards down the road. 
+Ruby gives us many tools to make scraping web pages easier. Investing a little time learning them now will reap abundant rewards down the road. 
