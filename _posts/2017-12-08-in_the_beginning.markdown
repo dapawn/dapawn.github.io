@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "In the Beginning..."
-date:       2017-12-08 20:45:46 +0000
+date:       2017-12-08 15:45:47 -0500
 permalink:  in_the_beginning
 ---
 
@@ -23,3 +23,8 @@ Some months later I had my first simplistic text based game. I was trying to mak
 ```
 
 The game wasn't very exciting, but the idea of getting the computer to do something for me, was. Over the years, the ability to get the computer to do stuff for me has saved a lot of time and effort. Computer's have advanced a lot since then, and so have the languages we use to control them. And the ability to program has only become more valuable.
+
+> The closest a person ever comes to perfection is when he fills out a job application form.
+>  - Businessman Stanley Randall
+
+
