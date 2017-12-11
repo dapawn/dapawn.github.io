@@ -27,7 +27,7 @@ Once we have contructed the search URL, we want to get the data into the script.
 
 ## Nokogiri
 
-Nokogiri (fine toothed saw in Japanese), is a ruby gem that parses the HTML and helps us scrape the informatino we need off the page, but first we need to look at the source, to see what CSS selectors we can use to pull out the information we need. This can be tricky, but the more you do it, the easier it gets.
+Nokogiri (fine toothed saw in Japanese), is a ruby gem that parses the HTML and helps us scrape the informatino we need off the page. But first we need to look at the source to see what CSS selectors we can use to pull out the information we need. This can be tricky, but the more you do it, the easier it gets. Here's an example that returns the location.
 
 ``search = Nokogiri::HTML(html)`` <br>
 ``search.css("li.result-row span.result-meta span.result-hood")``
@@ -35,3 +35,7 @@ Nokogiri (fine toothed saw in Japanese), is a ruby gem that parses the HTML and 
 ## So what's the point?
 
 Ruby gives us many tools to make scraping web pages easier. Investing a little time learning them now will reap abundant rewards down the road. 
+
+>If you think eggplant is good, you should try any other food; it’s much better.
+
+>-Amir Blumenfeld
