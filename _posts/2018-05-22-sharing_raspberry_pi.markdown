@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Sharing Raspberry Pi"
-date:       2018-05-22 21:43:53 +0000
+date:       2018-05-22 17:43:53 -0400
 permalink:  sharing_raspberry_pi
 ---
 
 
-My oldest son justed turned eleven, and I was thinking it was time to get him exposed to some electronics  and programming projects. So I got him a Raspberry Pi electronics project kit, thinking it would be an easy and fun way to stir up his interest.
+My oldest son just turned eleven, and I was thinking it was time to get him exposed to some electronics  and programming projects. So I got him a Raspberry Pi electronics project kit, thinking it would be an easy and fun way to stir up his interest.
 
 I often marvel at how quickly my kids adapt to technology, from tablets to phones, it all seems so intuitive to them.  I've been using computers since the 1980's, so I forgot how different things would be for him. I was assuming that he would just absorb it all quickly, like everything else.
 
