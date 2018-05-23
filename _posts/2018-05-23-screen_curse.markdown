@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Screen Curse"
-date:       2018-05-23 15:42:38 +0000
+date:       2018-05-23 11:42:39 -0400
 permalink:  screen_curse
 ---
 
@@ -16,6 +16,6 @@ Raspberry Pi and zip ties to the rescue! Raspberry Pi is a small creditcard size
 
 Here are some pics:
 
-![Front of Homemade TV/DVD Combo Unit](https://github.com/dapawn/dapawn.github.io/blob/master/img/TV_DVD_Combo_Front.jpg)
+![Front of Homemade TV/DVD Combo Unit](http://dapawn.github.io/img/TV_DVD_Combo_Front.jpg)
 
-![Back of Homemade TV/DVD Combo Unit](https://github.com/dapawn/dapawn.github.io/blob/master/img/TV_DVD_Combo_Back.jpg)
+![Back of Homemade TV/DVD Combo Unit](http://dapawn.github.io/img/TV_DVD_Combo_Back.jpg)
