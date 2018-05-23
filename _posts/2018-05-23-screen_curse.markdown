@@ -16,6 +16,6 @@ Raspberry Pi and zip ties to the rescue! Raspberry Pi is a small creditcard size
 
 Here are some pics:
 
-![Front of Homemade TV/DVD Combo Unit](http://dapawn.github.io/img/TV_DVD_Combo_Front.jpg)
+![Front of Homemade TV/DVD Combo Unit](https://dapawn.github.io/img/TV_DVD_Combo_Front.jpg)
 
-![Back of Homemade TV/DVD Combo Unit](http://dapawn.github.io/img/TV_DVD_Combo_Back.jpg)
+![Back of Homemade TV/DVD Combo Unit](https://dapawn.github.io/img/TV_DVD_Combo_Back.jpg)
