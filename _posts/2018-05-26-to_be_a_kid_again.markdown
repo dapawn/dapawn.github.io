@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "To be a Kid Again"
-date:       2018-05-26 22:07:20 +0000
+date:       2018-05-26 18:07:20 -0400
 permalink:  to_be_a_kid_again
 ---
 
@@ -12,14 +12,14 @@ Another secret pleasure is when you play with them, you get to be a kid again. I
 
 When I felt my son was old enough, I passed on the collection I had amassed over the years,.  Perhaps, that may not have been the best thing, cause when you get something easily, you don't appreciate it as much. But it did give me an excuse to start playing with them again.
 
-I don't know if he enjoys them as much as I did, but he does enjoy playing with them together with me. One of his favorite things is to builld a vehicle that we then take outside to do some imagination play, Like we are exploring a hostile alien world.
+I don't know if he enjoys them as much as I did, but he does enjoy building legos together with me. One of his favorite things is to build a vehicle that we then take outside to do some imagination play, like we are exploring a hostile alien world.
 
 I love that he enjoys it, because the truth is, its so nice to escape the routine, stress, and worries of adult life... and just be a kid again.
 
 Here's some pics:
 
 [Front of Spaceship](https://dapawn.github.io/img/IMG_20180526_074723335_LL.jpg)
-This is the space that explores for a place to setup base
+This is the spaceship that explores for a place to setup base
 
 
 [Landrover and Base](https://dapawn.github.io/img/IMG_20180526_093510849_LL.jpg)
