@@ -12,7 +12,7 @@ Yeah, that starts to adds up to some signifcant cash after about the 5th time. W
 
 The last screen to break was my son's TV/DVD Combo (We love these for homeschooling, so we have a couple). When we didn't find any cheap ones on Craigslist, I was looking for a quick replacement (The kids were using my laptop, which meant I could not do my school... and there was increased risk that my screen would break!!! )
 
-Raspberry Pi and zip ties to the rescue! Raspberry Pi is a small creditcard sized comuter, I zip tied it to the back of an old computer monitor along with a USB DVD player, and an extention cord so I could wrap up all the other cables to the back and just have a single plug, and 'voila', my very own TV/DVD Player combo. Ok, so its not pretty, but it works for now until a cheap one appears on Craigslist. And now my laptop screen can rest a little easier at night too.
+Raspberry Pi and zip ties to the rescue! Raspberry Pi is a small credit card sized computer, I zip tied it to the back of an old computer monitor along with a USB DVD player, and an extention cord so I could wrap up all the other cables to the back and just have a single plug, and 'voila', my very own TV/DVD Player combo. Ok, so its not pretty, but it works for now until a cheap one appears on Craigslist. And now my laptop screen can rest a little easier at night too.
 
 Here are some pics:
 
