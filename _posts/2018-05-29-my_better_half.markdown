@@ -20,5 +20,5 @@ There were some hard times with the business, but she stuck with me. The busines
 
 I love this woman with all my heart, and look forward the next twelve years. Oh...  did I mention she's a great cook!
 
-
+![My Love and I](https://dapawn.github.io/img/MyLoveAndI.jpg)
 
