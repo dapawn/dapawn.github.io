@@ -45,16 +45,16 @@ class Hack < ActiveRecord::Base
 end
 ```
 
-You may have noticed the `has_secure_password` in the user model, which is one of the beauties of ActiveRecord, which also provides the user.authenticate method for us, so that we don't have to store plaintext passwords. All we have to install the `bcrypt` gem to use this feature. And that's all  we need to have proper user authentification for our site!
+You may have noticed the `has_secure_password` in the user model, which is one of the beauties of ActiveRecord, which also provides the user.authenticate method for us, so that we don't have to store plaintext passwords. All we have to install the `bcrypt` gem to use this feature. And that's basically all we need to have proper user authentification for our site!
 
-For six and seven, while any user should be able to read the hacks, only the user that created the hack, should be able to modify or delete the hack. In the HackController for the appropriate rotues, we have to check that `@hack.user_id == current_user.id`. We can  even take it a step further and only display the buttons if that condition of true.
+For six and seven, while any `user` should be able to read the hacks, only the `user` that created the hack, should be able to modify or delete the hack. In the `HackController` for the appropriate rotues, we have to check that `@hack.user_id == current_user.id`. We can even take it a step further and only display the buttons if that condition of true! 
 
-To satify number eight, we do some basic user input validation, we just make sure that feild aren't empty. We could definitely do more, like make sure the email address has an '@' and '.', but  we'll leave that as an improvement for the next time.
+To satify number eight, we do some basic user input validation,  just to make sure that required feilds aren't empty. We could definitely do more, like make sure the email address has an '@' and '.', but we'll leave that as an improvement for the next time.
 
-you can check out the project on my github page and even download and try it out using shotgun. Find the project here:
+You can check out the project on my github page and even download and try it out using `shotgun`. Find the project here:
 [Github repository for Tiphac site code.](https://github.com/dapawn/sinatra-cms-app-assessment-cb-000)
 
-Here's a screenshot of the site:
+Here's a couple screenshots of the site:
 
 ![Tiphac site list of hacks created by to you.](https://dapawn.github.io/img/tiphac_yours.jpg)
 
