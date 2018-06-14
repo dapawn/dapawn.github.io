@@ -45,7 +45,7 @@ class Hack < ActiveRecord::Base
 end
 ```
 
-you may have noticed the `has_secure_password` in the user model, ActiveRecord provides the user.authenticate method for us, so that we don't have to store plaintext passwords. we have to install the `bcrypt` gem to use this feature. 
+You may have noticed the `has_secure_password` in the user model, which is one of the beauties of ActiveRecord, which also provides the user.authenticate method for us, so that we don't have to store plaintext passwords. All we have to install the `bcrypt` gem to use this feature. And that's all  we need to have proper user authentification for our site!
 
 For six and seven, while any user should be able to read the hacks, only the user that created the hack, should be able to modify or delete the hack. In the HackController for the appropriate rotues, we have to check that `@hack.user_id == current_user.id`. We can  even take it a step further and only display the buttons if that condition of true.
 
