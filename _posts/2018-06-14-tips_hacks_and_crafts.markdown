@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "TIPs, Hacks, And Crafts"
-date:       2018-06-14 21:10:06 +0000
+date:       2018-06-14 17:10:07 -0400
 permalink:  tips_hacks_and_crafts
 ---
 
 
-If I've got a few minutes of spare time, I enjoy watching those life hacks videos on Youtube. Sure some are common sense, but there are quite a few that make me pause and think; I've got to remember that one. So when it was time to make my portfolio project, i thought why not make a collection site where users can submit their favorite tips, tricks, hacks, and crafts. I call it 'Tiphac' short for TIPs, Hacks, And Crafts (hey, all the other domains were taken).
+If I've got a few minutes of spare time, I enjoy watching those life hacks videos on Youtube. Sure some are common sense, but there are quite a few that make me pause and think; I've got to remember that one. So when it was time to make my Sinatra Portfolio project, i thought why not make a collection site where users can submit their favorite tips, tricks, hacks, and crafts. I call it 'Tiphac' which is short for TIPs, Hacks, And Crafts (hey, all the other domains were taken).
 
 The requiremnts for the project were pretty straight forward:
 
@@ -23,8 +23,8 @@ The first three are pretty obvious, for number four, each `user` could have many
 
 ```
 class User < ActiveRecord::Base
-**  has_many  :hacks
-**
+  has_many  :hacks
+
   has_secure_password
 
   def slug
@@ -41,8 +41,23 @@ end
 
 ```
 class Hack < ActiveRecord::Base
-**  belongs_to :user
-**end
+  belongs_to :user
+end
 ```
 
-For six and seven, while any user should be able to 
+you may have noticed the `has_secure_password` in the user model, ActiveRecord provides the user.authenticate method for us, so that we don't have to store plaintext passwords. we have to install the `bcrypt` gem to use this feature. 
+
+For six and seven, while any user should be able to read the hacks, only the user that created the hack, should be able to modify or delete the hack. In the HackController for the appropriate rotues, we have to check that `@hack.user_id == current_user.id`. We can  even take it a step further and only display the buttons if that condition of true.
+
+To satify number eight, we do some basic user input validation, we just make sure that feild aren't empty. We could definitely do more, like make sure the email address has an '@' and '.', but  we'll leave that as an improvement for the next time.
+
+you can check out the project on my github page and even download and try it out using shotgun. Find the project here:
+[Github repository for Tiphac site code.](https://github.com/dapawn/sinatra-cms-app-assessment-cb-000)
+
+Here's a screenshot of the site:
+
+![Tiphac site list of hacks created by to you.](https://dapawn.github.io/img/tiphac_yours.jpg)
+
+
+![Tiphac site display of individual hack.](https://dapawn.github.io/img/tiphac_yours.jpg)
+
