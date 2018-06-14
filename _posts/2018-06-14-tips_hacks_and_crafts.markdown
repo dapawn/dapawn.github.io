@@ -6,7 +6,7 @@ permalink:  tips_hacks_and_crafts
 ---
 
 
-If I've got a few minutes of spare time, I enjoy watching those life hacks videos on Youtube. Sure some are common sense, but there are quite a few that make me pause and think; I've got to remember that one. So when it was time to make my Sinatra Portfolio project, i thought why not make a collection site where users can submit their favorite tips, tricks, hacks, and crafts. I call it 'Tiphac' which is short for TIPs, Hacks, And Crafts (hey, all the other domains were taken).
+If I've got a few minutes of spare time, I enjoy watching those life hacks videos on Youtube. Sure, some are common sense, but there are quite a few that make me pause and think - 'Hey, I've got to remember that one!' So when it was time to make my Sinatra Portfolio project, I thought: why not make a collection site where users can submit their favorite tips, tricks, hacks, and crafts. I call it 'Tiphac' which is short for TIPs, Hacks, And Crafts (hey, all the other domains were taken).
 
 The requiremnts for the project were pretty straight forward:
 
@@ -19,7 +19,7 @@ The requiremnts for the project were pretty straight forward:
 7. Ensure that any instance of the resource that belongs to a user can be edited or deleted only by that user.
 8. You should also have validations for user input to ensure that bad data isn't added to the database. The fields in your signup form should be required and the user attribute that is used to login a user should be a unique value in the DB before creating the user.
 
-The first three are pretty obvious, for number four, each `user` could have many `hacks`, and a `hack` would belong to a single `user`. This is accouplished in my models as you see in the code below:
+The first three are pretty obvious, for number four, each `user` could `have many hacks`, and a `hack` would `belong to` a single `user`. This is accouplished in my models as you see in the code below:
 
 ```
 class User < ActiveRecord::Base
