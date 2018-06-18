@@ -51,6 +51,8 @@ For six and seven, while any `user` should be able to read the hacks, only the `
 
 To satify number eight, we do some basic user input validation,  just to make sure that required feilds aren't empty. We could definitely do more, like make sure the email address has an '@' and '.', but we'll leave that as an improvement for the next time.
 
+I did a video walk through for the project and posted on youtube. Which you can find [here](https://youtu.be/5FA_6yoM7WE)
+
 You can check out the project on my github page and even download and try it out using `shotgun`. Find the project here:
 [Github repository for Tiphac site code.](https://github.com/dapawn/sinatra-cms-app-assessment-cb-000)
 
