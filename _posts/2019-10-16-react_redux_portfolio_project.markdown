@@ -12,8 +12,8 @@ A Youtube tutorial by the NetNinja was a big help putting toggether this site. I
 
 Its a basic discussion board, authenticated users can  read and post new topics to discuss, and read and comment on them. There is also a like system, so the most liked topics and comments float to the top. I used a cloud function for the notifications. Notifications are most recent first, and are shown on the home page with a list of topic summaries.
 
-you can find the code here: <https://github.com/dapawn/react-redux-assessment-cb-000>
+you can find the [code here](https://github.com/dapawn/react-redux-assessment-cb-000)
 
-And  the video walk through of project here: <https://youtu.be/PK1yc7REpk4>
+And  the video walk through of [project here](https://youtu.be/PK1yc7REpk4)
 
 Enjoy!
