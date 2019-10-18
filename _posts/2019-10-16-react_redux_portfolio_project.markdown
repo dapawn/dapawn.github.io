@@ -10,7 +10,7 @@ Its been a while since I written. It took me a while, but I've finally 'finished
 
 A Youtube tutorial by the NetNinja was a big help putting toggether this site. It uses React and Redux of course, and the Thunk middleware to tie it to the Google Firestore Cloud Database. We use Googles Firebase authentification and hosting as they are all well integrated (and free for small sites like mine).
 
-Its a basic discussion board, authenticated users can  read and post new topics to discuss, and read and comment on them. There is also a like system, so the most liked topics and comments float to the top. I used a cloud function for the notifications. Notifications are most recent first, and are shown on the home page with a list of topic summaries.
+Its a basic discussion board, authenticated users can  read and post new topics to discuss, and read and comment on them. There is also a 'like' system, so the most 'liked' topics and comments float to the top. I used a cloud function for the notifications. Notifications are most recent first, and are shown on the home page with a list of topic summaries.
 
 you can find the [code here](https://github.com/dapawn/react-redux-assessment-cb-000)
 
