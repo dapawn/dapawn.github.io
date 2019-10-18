@@ -14,6 +14,6 @@ Its a basic discussion board, authenticated users can  read and post new topics 
 
 you can find the [code here](https://github.com/dapawn/react-redux-assessment-cb-000)
 
-And  the video walk through of [project here](https://youtu.be/PK1yc7REpk4)
+And  the [video walk through of the project here](https://youtu.be/PK1yc7REpk4)
 
 Enjoy!
