@@ -20,6 +20,6 @@ Since rails disables forms by default to avoid accidental double submits, it too
 
 It also took me a bit to figure out how to close Bootstrap modals on form submission. I tried to do it manually in the script, but there was too much going on behind the scenes. A simple, and I thing elegant solution, was after the AJAX form submission, was to just call .click() on the modal close button and let bootstrap handle all the background stuff.
 
-Dynamically setting the 'Edit' modal content was pretty cool. On the edit link, we used data attributs that we could read in javascript to set the values of the form inputs. I thought it was pretty clever, but I can't take credit for comming up with it, thanks Google and StackOverflow.
+Dynamically setting the 'Edit' modal content was pretty cool. On the edit link, we used data attributes that we could read in javascript to set the values of the form inputs. I thought it was pretty clever, but I can't take credit for comming up with it, thanks Google and StackOverflow.
 
-You can view my Video Walkthrough here: <https://youtu.be/l3CO42nmC9s>
+You can view my [Video Walkthrough here:](https://youtu.be/l3CO42nmC9s)
