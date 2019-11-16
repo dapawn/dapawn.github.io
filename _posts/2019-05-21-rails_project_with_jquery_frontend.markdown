@@ -6,8 +6,8 @@ permalink:  rails_project_with_jquery_frontend
 ---
 
 
-This was a continuation of my Rails Portfolio Project. So, just to recap, my wife is part of a non-profit organization that is affiliated with our church, which provides funding to start or expand business to members in third-world contries. Currenttly applications are comming in through email as scanned or photos of handwritten forms. Thus the idea was born; make an online application form that automagically saves it in a database, and make the data entry person happy-er. You can check out the demo here:
-https://rocky-ocean-61079.herokuapp.com
+This was a continuation of my Rails Portfolio Project. So, just to recap, my wife is part of a non-profit organization that is affiliated with our church, which provides funding to start or expand business to members in third-world contries. Currenttly applications are comming in through email as scanned or photos of handwritten forms. Thus the idea was born; make an online application form that automagically saves it in a database, and make the data entry person happy-er. You can check out the [demo here:]
+(https://rocky-ocean-61079.herokuapp.com)
 
 This time around, I used bootsrap to do the layout and make the webpage responsive (works on mobile devices as well as the desktop). Bootstrap also made working with modals easy (with one caveat which we will discuss later). JQuery handles cross browser compatibilty for us and makes for concise coding. I used Devise to handle authentification. Users must select the church/region that they are responsible for during registration. when they login, applicantions that they have previously create are shown, and in the top navigation and link to create a new application is provided (along with welcome and signout).
 
