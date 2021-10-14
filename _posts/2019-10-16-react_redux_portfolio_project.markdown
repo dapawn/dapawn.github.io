@@ -6,7 +6,7 @@ permalink:  react_redux_portfolio_project
 ---
 
 
-Its been a while since I written. It took me a while, but I've finally 'finished' up my final project. 'Finished' is in quotes because there are so many more features that I plan to add down the road, well at least if the group decides to adopt m project. :-) Its a discussion board for a men's group at my church. You can check out the [demo here:](https://yarticulate.web.app) 
+Its been a while since I written. It took me a while, but I've finally 'finished' up my final project. 'Finished' is in quotes because there are so many more features that I plan to add down the road, well at least if the group decides to adopt my project. :-) Its a discussion board for a men's group at my church. You can check out the [demo here:](https://yarticulate.web.app) 
 
 A Youtube tutorial by the NetNinja was a big help putting toggether this site. It uses React and Redux of course, and the Thunk middleware to tie it to the Google Firestore Cloud Database. We use Googles Firebase authentification and hosting as they are all well integrated (and free for small sites like mine).
 
